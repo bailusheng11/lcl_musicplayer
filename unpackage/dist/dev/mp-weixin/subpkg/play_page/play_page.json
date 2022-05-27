@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "nav-bar": "/components/nav-bar/nav-bar",
+    "all-song-list": "/components/all-song-list/all-song-list"
+  }
+}

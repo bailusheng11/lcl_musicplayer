@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/profile/profile",
+    "pages/videos/videos"
+  ],
+  "subPackages": [
+    {
+      "root": "subpkg",
+      "pages": [
+        "search/search",
+        "play_page/play_page",
+        "hotcartlist/hotcartlist",
+        "cartlist/cartlist"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#ff0000",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/videos/videos",
+        "text": "视频",
+        "iconPath": "static/tabbar/videos.png",
+        "selectedIconPath": "static/tabbar/videos-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "static/tabbar/Profile.png",
+        "selectedIconPath": "static/tabbar/Profile-active.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.nav-search-box {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #e00000;
+}
+.sugg-list {
+  padding: 0 5px;
+}
+.sugg-list .sugg-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 13px 15px;
+  border-bottom: 1px solid #efefef;
+}
+.sugg-list .sugg-item .goods-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 3px;
+}
+.sugg-list .sugg-item .goods-name .artists {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 10px;
+  margin-top: 5px;
+}
+.sugg-list .sugg-item .goods-name .artists .artist {
+  margin-left: 5px;
+}
+.history-box {
+  padding: 0 5px;
+}
+.history-box .history-title {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+  font-size: 13px;
+  border-bottom: 1px solid #efefef;
+}
+.history-box .history-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.history-box .history-list .uni-tag {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+

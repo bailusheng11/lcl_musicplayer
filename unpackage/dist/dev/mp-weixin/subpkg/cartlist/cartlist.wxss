@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.is-fixed {
+  position: fixed;
+  top: 128rpx;
+  left: 0;
+  padding: 0 40rpx;
+  width: 100%;
+  background-color: #fff;
+  padding-top: 40rpx;
+  padding-bottom: 20rpx;
+}
+.songs-list-padding {
+  margin-top: 48rpx;
+}
+.cartlist-top .cover .bg-img-fixed {
+  position: fixed;
+  top: calc( -100% + 130rpx);
+  left: 0;
+  z-index: 99;
+}
+.nav-bar-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cartlist-top {
+  padding-top: 60px;
+  position: relative;
+  font-size: 12px;
+  overflow: hidden;
+}
+.cartlist-top .bg-img, .cartlist-top .bg-cover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.cartlist-top .bg-cover {
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.cartlist-top .cartlist-box {
+  display: flex;
+  margin: 40rpx;
+}
+.cartlist-top .cartlist-box image {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 15rpx;
+}
+.cartlist-top .cartlist-box text {
+  margin-left: 20rpx;
+}
+.songs-list {
+  position: relative;
+  padding: 40rpx;
+}
+.songs-list .songs-title {
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.songs-list .song-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 20rpx 0;
+  border-top: 1px solid #efefef;
+}
+.songs-list .song-item .left {
+  display: flex;
+  align-items: center;
+}
+.songs-list .song-item .left .index {
+  margin-right: 20rpx;
+  color: gray;
+}
+.songs-list .song-item .left .goods-name {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 3px;
+  font-size: 14px;
+}
+.songs-list .song-item .left .goods-name .artists {
+  display: flex;
+  align-items: center;
+  color: gray;
+  font-size: 10px;
+  margin-top: 5px;
+}
+.songs-list .song-item .left .goods-name .artists .artist {
+  margin-left: 5px;
+}
+.songs-list .song-item .left .goods-name .artists .gang {
+  margin: 10rpx;
+}
+

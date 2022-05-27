@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "主页",
+  "usingComponents": {
+    "mysearch": "/components/mysearch/mysearch",
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "my-cartlist": "/components/my-cartlist/my-cartlist",
+    "all-song-list": "/components/all-song-list/all-song-list"
+  }
+}

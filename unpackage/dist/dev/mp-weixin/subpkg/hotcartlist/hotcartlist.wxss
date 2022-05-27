@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.allcartlist {
+  position: relative;
+}
+.allcartlist .scroll-view_H {
+  white-space: nowrap;
+  width: 100%;
+}
+.allcartlist .scroll-view_H .scroll-view-item_H {
+  display: inline-block;
+  height: 40rpx;
+  padding: 0 20rpx;
+  line-height: 40rpx;
+  text-align: center;
+  font-size: 24rpx;
+}
+.allcartlist .uniui-bars {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 0;
+  box-shadow: 1px 1px 1px;
+  background-color: #fff;
+}
+

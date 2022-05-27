@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+page {
+  box-sizing: border-box;
+}
+swiper {
+  height: 330rpx;
+}
+swiper .swiper-item,
+swiper image {
+  width: 100%;
+  height: 100%;
+}
+.newSongs {
+  margin: 20rpx;
+}
+.newSongs .newSongs-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.newSongs .newSongs-title text {
+  font-weight: bold;
+}
+.newSongs .newSongs-title button {
+  margin: 0;
+  padding: 0 5px;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.newSongs .newSongs-list .newSongs-item {
+  width: 100%;
+  height: 100rpx;
+  box-sizing: border-box;
+  display: flex;
+  padding: 10rpx 0;
+  align-items: center;
+}
+.newSongs .newSongs-list .newSongs-item .newSongs-img {
+  height: 100%;
+  border-radius: 5px;
+}
+.newSongs .newSongs-list .newSongs-item .newSongs-placeholder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20rpx;
+  box-sizing: border-box;
+}
+.newSongs .newSongs-list .newSongs-item .newSongs-placeholder .newSongs-name {
+  font-size: 16px;
+}
+.newSongs .newSongs-list .newSongs-item .newSongs-placeholder .gang {
+  margin: 10rpx;
+  font-size: 10px;
+  color: gray;
+}
+.newSongs .newSongs-list .newSongs-item .newSongs-placeholder .newSongs-artists {
+  font-size: 10px;
+  color: gray;
+}
+.play-bar-placeholder {
+  height: 45px;
+  width: 100%;
+}
+.play-bar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  height: 88rpx;
+  width: 100%;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.5);
+}
+.play-bar .left {
+  display: flex;
+  align-items: center;
+}
+.play-bar .left .album {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.play-bar .left .name {
+  font-size: 14px;
+}
+.play-bar .right {
+  display: flex;
+  align-items: center;
+}
+.play-bar .right .icon {
+  width: 30px;
+  height: 30px;
+}
+.play-bar .right .play {
+  width: 25px;
+  height: 25px;
+  margin-right: 10rpx;
+}
+@-webkit-keyframes albumAnimation {
+from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+}
+to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+}
+@keyframes albumAnimation {
+from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+}
+to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+}
+.album-anim {
+  -webkit-animation: albumAnimation 16s linear infinite;
+          animation: albumAnimation 16s linear infinite;
+}
+

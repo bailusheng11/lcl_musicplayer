@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+.container .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120rpx;
+  height: 88rpx;
+}
+.container .center {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  height: 88rpx;
+  font-size: 14px;
+}
+.container .center .cCenter {
+  margin: 0 10rpx;
+}
+.container .right {
+  width: 120rpx;
+  height: 88rpx;
+}
+

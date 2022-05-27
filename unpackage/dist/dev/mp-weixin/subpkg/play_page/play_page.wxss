@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.currentpage {
+  position: relative;
+}
+.nav-bar-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-bar-center .cCenter {
+  margin: 0 10rpx;
+}
+.bg-pic, .bg-cover {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.bg-cover {
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+}
+.content {
+  margin-top: 124rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 30rpx 60rpx;
+}
+.content .music {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+.content .music .cover {
+  display: flex;
+  align-items: center;
+  flex: 4;
+}
+.content .music .cover .image {
+  width: 100%;
+  border-radius: 12rpx;
+}
+.content .music .song-info {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
+.content .music .song-info .songName {
+  margin: 20rpx 0;
+  font-size: 24px;
+}
+.content .music .song-info .artistalbum {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90rpx;
+}
+.content .music .song-info .artistalbum .artist {
+  font-size: 14px;
+}
+.content .music .song-info .artistalbum .album {
+  font-size: 13px;
+}
+.content .music .currentLyric {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  color: #0f0;
+  margin: 20rpx 0;
+}
+.content .music .progress {
+  flex: 1;
+}
+.content .music .progress .time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .music .operation {
+  display: flex;
+  flex: 2;
+  justify-content: space-around;
+  align-items: center;
+}
+.content .music .operation .btn {
+  width: 60rpx;
+  height: 60rpx;
+}
+.content .music .operation .btn-pause {
+  width: 80rpx;
+  height: 80rpx;
+}
+.content .lyric-list {
+  height: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.content .lyric-list .perLyric {
+  height: 35px;
+  line-height: 35px;
+  font-size: 28rpx;
+  text-align: center;
+  color: #989898;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.content .lyric-list .active {
+  color: #139c2c;
+  font-size: 36rpx;
+}
+
